@@ -90,7 +90,7 @@ export default {
 }
 
 .footer {
-    background: #410078;
+    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);;
     padding: 50px 0 0;
     width: 100%;
     position: relative;
@@ -108,7 +108,7 @@ export default {
 
 .footer::before {
     content: '';
-    background-image: url(../../styles/img/symbol_connector_crop2.jpg);
+    // background-image: url(../../styles/img/symbol_connector_crop2.jpg);
     position: absolute;
     z-index: 0;
     bottom: 0;
