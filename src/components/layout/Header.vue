@@ -71,11 +71,11 @@ export default {
 
 <style lang="scss" scoped>
 .mainnet-gradient {
-    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
 }
 
 .testnet-gradient {
-    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
 }
 
 .header-gradinet {
@@ -151,7 +151,6 @@ export default {
         .header-title {
             color: #fff;
             font-weight: 500;
-            text-transform: capitalize;
             font-size: 18px;
             margin-top: 14px;
             margin-bottom: 0.5rem;

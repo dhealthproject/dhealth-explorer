@@ -90,7 +90,7 @@ export default {
 }
 
 .footer {
-    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);;
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
     padding: 50px 0 0;
     width: 100%;
     position: relative;
