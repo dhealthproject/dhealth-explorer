@@ -59,6 +59,7 @@ import IconReddit from 'vue-material-design-icons/Reddit.vue';
 import IconForum from 'vue-material-design-icons/Forum.vue';
 import IconTelegram from 'vue-material-design-icons/Telegram.vue';
 import IconHomeCurrencyUsd from 'vue-material-design-icons/HomeCurrencyUsd.vue';
+import IconBookOpenPageVariant from 'vue-material-design-icons/BookOpenPageVariant.vue';
 import globalConfig from '../../config/globalConfig';
 
 export default {
@@ -72,7 +73,8 @@ export default {
 		IconReddit,
 		IconForum,
 		IconTelegram,
-		IconHomeCurrencyUsd
+		IconHomeCurrencyUsd,
+        IconBookOpenPageVariant
 	},
 
 	data() {
