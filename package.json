@@ -2,7 +2,7 @@
     "name": "dhealth-explorer",
     "description": "dHealth Explorer: Public Blockchain Infrastructure for Healthcare",
     "homepage": "https://github.com/dhealthproject/dhealth-explorer",
-    "version": "1.1.0-alpha202002101440",
+    "version": "1.2.0",
     "author": {
         "name": "Using Blockchain Ltd",
         "email": "info@ubc.digital",

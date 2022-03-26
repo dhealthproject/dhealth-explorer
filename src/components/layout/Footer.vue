@@ -74,7 +74,7 @@ export default {
 		IconForum,
 		IconTelegram,
 		IconHomeCurrencyUsd,
-        IconBookOpenPageVariant
+		IconBookOpenPageVariant
 	},
 
 	data() {
