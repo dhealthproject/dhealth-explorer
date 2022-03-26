@@ -82,11 +82,11 @@ export default {
 
 <style lang="scss" scoped>
 .testnet-gradient {
-    background: linear-gradient(120deg, rgb(43, 1, 102) 0%, rgb(67, 0, 78) 80%);
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
 }
 
 .mainnet-gradient {
-    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
 }
 
 .header-gradinet {

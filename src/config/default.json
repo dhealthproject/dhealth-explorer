@@ -41,6 +41,11 @@
 				"href": "https://github.com/UsingBlockchain",
 				"text": "Github",
 				"icon": "IconGithub"
+			},
+			{
+				"href": "http://docs.dhealth.com",
+				"text": "Developer Hub",
+				"icon": "IconBookOpenPageVariant"
 			}
 		]
 	}
