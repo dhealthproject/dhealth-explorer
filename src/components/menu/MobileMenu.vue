@@ -206,7 +206,7 @@ export default {
     }
 
     .mobile-panel {
-        background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+        background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
         box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
         padding: 0 15px;
         display: flex;

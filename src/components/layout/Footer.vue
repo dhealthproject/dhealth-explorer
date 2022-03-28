@@ -59,6 +59,7 @@ import IconReddit from 'vue-material-design-icons/Reddit.vue';
 import IconForum from 'vue-material-design-icons/Forum.vue';
 import IconTelegram from 'vue-material-design-icons/Telegram.vue';
 import IconHomeCurrencyUsd from 'vue-material-design-icons/HomeCurrencyUsd.vue';
+import IconBookOpenPageVariant from 'vue-material-design-icons/BookOpenPageVariant.vue';
 import globalConfig from '../../config/globalConfig';
 
 export default {
@@ -72,7 +73,8 @@ export default {
 		IconReddit,
 		IconForum,
 		IconTelegram,
-		IconHomeCurrencyUsd
+		IconHomeCurrencyUsd,
+		IconBookOpenPageVariant
 	},
 
 	data() {
@@ -90,7 +92,7 @@ export default {
 }
 
 .footer {
-    background: #410078;
+    background: linear-gradient(315.55deg, $primary-color -1.68%, $secondary-color 110.7%);
     padding: 50px 0 0;
     width: 100%;
     position: relative;
@@ -108,7 +110,7 @@ export default {
 
 .footer::before {
     content: '';
-    background-image: url(../../styles/img/symbol_connector_crop2.jpg);
+    // background-image: url(../../styles/img/symbol_connector_crop2.jpg);
     position: absolute;
     z-index: 0;
     bottom: 0;

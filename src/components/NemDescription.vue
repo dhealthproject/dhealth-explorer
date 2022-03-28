@@ -19,8 +19,8 @@
 <template>
 	<b-col sm="12" lg="4">
 		<div class="ft-logo">
-			<a href="https://dhealth.network/" target="_blank" style="height: 60px;">
-				<img src="../styles/img/logo-f-w.dhealth.png" />
+			<a href="https://dhealth.network/" target="_blank" style="height: 30px;">
+				<img src="../styles/img/dhealth_logo_white.png" />
 			</a>
 		</div>
 		<div class="ft-desc mt-3">
