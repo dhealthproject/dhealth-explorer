@@ -127,7 +127,7 @@ class helper {
 		let url = new Url(str);
 
 		if (this.validURL(url)) {
-			url.set('protocol', 'ws:');
+			url.set('protocol', '3000' === url.port ? 'ws:' : 'wss:');
 			return url;
 		}
 	}
