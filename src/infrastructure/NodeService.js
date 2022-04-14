@@ -186,7 +186,17 @@ class NodeService {
     	};
 
     	try {
-    		const nodeStatus = (await Axios.get(nodeUrl + '/node/health')).data.status;
+    		let nodeStatus;
+
+    		if (location.protocol === 'https:') {
+    			const nodeHost = nodeUrl.replace('http://', '').replace(':3000', '');
+
+    			nodeStatus = (await Axios.get(
+    				`${globalConfig.endpoints.nodeProxy}?host=${nodeHost}&path=node%2Fhealth`)
+    			).data.status;
+    		}
+    		else
+    			nodeStatus = (await Axios.get(nodeUrl + '/node/health')).data.status;
 
     		status.connectionStatus = true;
     		status.apiNodeStatus = nodeStatus.apiNode === 'up';
@@ -205,7 +215,17 @@ class NodeService {
 
     	try {
     		chainInfo = {};
-    		const nodeChainInfo = (await Axios.get(nodeUrl + '/chain/info')).data;
+    		let nodeChainInfo;
+
+    		if (location.protocol === 'https:') {
+    			const nodeHost = nodeUrl.replace('http://', '').replace(':3000', '');
+
+    			nodeChainInfo = (await Axios.get(
+    				`${globalConfig.endpoints.nodeProxy}?host=${nodeHost}&path=chain%2Finfo`)
+    			).data.status;
+    		}
+    		else
+    			nodeChainInfo = (await Axios.get(nodeUrl + '/chain/info')).data;
 
     		chainInfo.height = nodeChainInfo.height;
     		chainInfo.scoreHigh = nodeChainInfo.scoreHigh;
