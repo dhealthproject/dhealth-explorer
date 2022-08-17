@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The changelog format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.1][1.2.1] - 17-Aug-2022
+
+#### Changed
+
+- Update peer nodes' protocol and port dynamically 
+
 ## [1.2.0][1.2.0] - 29-Mar-2022
 
 #### Added
@@ -26,5 +32,6 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 
 - Some missing re-branding items for dHealth logos.
 
+[1.2.1]: https://github.com/dhealthproject/dhealth-explorer/releases/tag/v1.2.1
 [1.2.0]: https://github.com/dhealthproject/dhealth-explorer/releases/tag/v1.2.0
 [1.0.0]: https://github.com/dhealthproject/dhealth-explorer/releases/tag/v1.0.0
